@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WebExpress - Modèle Vitrine</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+        <style>
+            * { margin: 0; padding: 0; box-sizing: border-box; }
+            body { font-family: 'Poppins', sans-serif; background: #111; color: #f2f2f2; }
+            header { background: linear-gradient(135deg, #00c9ff, #92fe9d); padding: 60px 20px; text-align: center; color: #111; }
+            header h1 { font-size: 2.5rem; margin-bottom: 10px; }
+            header p { font-size: 1.2rem; }
+            section { padding: 50px 20px; max-width: 900px; margin: auto; }
+            .section-title { font-size: 2rem; margin-bottom: 20px; color: #00c9ff; }
+            .services, .avis, .programmes { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+            .card { background: #222; padding: 20px; border-radius: 12px; flex: 1 1 250px; text-align: center; box-shadow: 0 4px 10px rgba(0,0,0,0.3); }
+            .card h3 { color: #92fe9d; margin-bottom: 10px; }
+            .contact { text-align: center; }
+            .btn { background: #00c9ff; color: #111; padding: 12px 25px; border: none; border-radius: 8px; font-size: 1rem; cursor: pointer; transition: 0.3s; text-decoration: none; display: inline-block; margin-top: 20px; }
+            .btn:hover { background: #92fe9d; }
+            footer { text-align: center; padding: 20px; background: #000; color: #777; }
+            .email { display: block; margin-top: 10px; font-size: 1.1rem; color: #00c9ff; text-decoration: underline; }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Boostez votre présence en ligne</h1>
+            <p>Un site pro, rapide, efficace. À prix mini.</p>
+        </header>
+
+        <section>
+            <h2 class="section-title">À propos</h2>
+            <p>Je crée des sites web modernes et captivants pour les petits business, artisans, entrepreneurs et freelances. Mon but : te livrer un site qui attire l’œil et donne envie de te contacter.</p>
+        </section>
+
+        <section>
+            <h2 class="section-title">Services</h2>
+            <div class="services">
+                <div class="card">
+                    <h3>Site Vitrine</h3>
+                    <p>Présente ton business 24h/24 avec style.</p>
+                </div>
+                <div class="card">
+                    <h3>Version Mobile</h3>
+                    <p>Optimisé pour tous les écrans.</p>
+                </div>
+                <div class="card">
+                    <h3>Design Attirant</h3>
+                    <p>Un look moderne qui attire les clients.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title">Programmes Python</h2>
+            <p style="text-align: center; margin-bottom: 30px;">
+                Je développe aussi des scripts et programmes Python pour automatiser les tâches, créer des outils utiles, ou même construire des interfaces graphiques simples.
+            </p>
+            <div class="programmes">
+                <div class="card">
+                    <h3>Outils d'automatisation</h3>
+                    <p>Scripts pour automatiser des fichiers, renommer, trier, convertir…</p>
+                </div>
+                <div class="card">
+                    <h3>Applications Python</h3>
+                    <p>Programmes avec interface utilisateur (Tkinter) simples à utiliser.</p>
+                </div>
+                <div class="card">
+                    <h3>Outils Web (Flask)</h3>
+                    <p>Transforme un script en application web rapide et pratique.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title">Avis clients</h2>
+            <div class="avis">
+                <div class="card">
+                    <p>"Rapide, sérieux et très pro. Je recommande !"</p>
+                    <strong>- alvin, barbershop</strong>
+                </div>
+                <div class="card">
+                    <p>"Mon site est magnifique, merci Nathan 💯🔥"</p>
+                    <strong>- yasmine, esthéticienne</strong>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2 class="section-title">Contact</h2>
+            <p>Prêt à lancer ton site ou ton programme Python ? Parlons-en !</p>
+            <a href="https://wa.me/243830129691" class="btn">Me contacter sur WhatsApp</a>
+            <a href="mailto:nathanjames3000000@gmail.com" class="email">nathanjames3000000@gmail.com</a>
+        </section>
+
+        <footer>
+            &copy; 2025 Nathan Dev. Tous droits réservés.
+        </footer>
+    </body>
+</html>
